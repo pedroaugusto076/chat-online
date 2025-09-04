@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #22d3ee;
+}
+
+/* Área de login */
+div {
+  margin-bottom: 15px;
+}
+
+#nick {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #1e293b;
+  color: #e5e7eb;
+}
+
+#joinBtn {
+  padding: 8px 14px;
+  margin-left: 6px;
+  border-radius: 8px;
+  border: none;
+  background: #22d3ee;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#joinBtn:disabled {
+  background: #475569;
+  cursor: not-allowed;
+}
+
+/* Lista de usuários online */
+#users {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#users li {
+  background: #1e293b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+/* Mensagens */
+#messages {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #1e293b;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#messages li {
+  background: #0b1220;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#messages li.system {
+  text-align: center;
+  color: #94a3b8;
+  font-style: italic;
+  background: transparent;
+}
+
+/* Formulário de envio */
+#form {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+#input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #0b1220;
+  color: #e5e7eb;
+}
+
+#form button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #22d3ee;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#form button:disabled {
+  background: #475569;
+  cursor: not-allowed;
+}
