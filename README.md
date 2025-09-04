@@ -2,26 +2,26 @@ Chat-Online é um projeto web de chat em tempo real, permitindo que múltiplos u
 
 Funcionalidades
 
-Login simples usando nickname
+- Login simples usando nickname
 
-Chat em tempo real com Socket.io
+- Chat em tempo real com Socket.io
 
-Lista de usuários online atualizada dinamicamente
+- Lista de usuários online atualizada dinamicamente
 
-Envio e exibição de mensagens instantaneamente
+- Envio e exibição de mensagens instantaneamente
 
-Interface moderna e responsiva
+- Interface moderna e responsiva
 
-Possibilidade de expansão com persistência em banco de dados
+- Possibilidade de expansão com persistência em banco de dados
 
 Tecnologias Utilizadas
 
-Node.js e Express → servidor web
+- Node.js e Express → servidor web
 
-Socket.io → comunicação em tempo real
+- Socket.io → comunicação em tempo real
 
-HTML5 e CSS3 → layout e design
+- HTML5 e CSS3 → layout e design
 
-JavaScript → interatividade do front-end
+- JavaScript → interatividade do front-end
 
 Possível integração futura com SQLite/MySQL para salvar histórico de mensagens
